@@ -1,0 +1,59 @@
+/* Estilo para o corpo da página */
+body {
+  font-family: sans-serif; /* Define a fonte padrão para o texto como sans-serif */
+  margin: 0; /* Remove a margem padrão do corpo da página */
+  padding: 0; /* Remove o preenchimento padrão do corpo da página */
+  background-color: #f2f2f2; /* Define a cor de fundo da página como um cinza claro */
+}
+
+/* Estilo para o contêiner principal */
+.container {
+  width: 400px; /* Define a largura do contêiner como 400 pixels */
+  margin: 50px auto; /* Centraliza o contêiner horizontalmente e dá uma margem superior de 50 pixels */
+  padding: 20px; /* Adiciona um preenchimento interno de 20 pixels ao redor do conteúdo do contêiner */
+  background-color: #fff; /* Define a cor de fundo do contêiner como branco */
+  border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao redor do contêiner para dar profundidade */
+}
+
+/* Estilo para o título (h2) */
+h2 {
+  text-align: center; /* Centraliza o texto do título */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+/* Estilo para os grupos de formulários */
+.form-group {
+  margin-bottom: 15px; /* Adiciona uma margem inferior de 15 pixels entre os grupos de formulários */
+}
+
+/* Estilo para os rótulos (label) */
+label {
+  display: block; /* Faz o rótulo ocupar toda a largura disponível */
+  margin-bottom: 5px; /* Adiciona uma margem inferior de 5 pixels entre o rótulo e o campo de entrada */
+  font-weight: bold; /* Deixa o texto do rótulo em negrito */
+}
+
+/* Estilo para os campos de entrada de texto, data, telefone e número */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="number"] {
+  width: 100%; /* Faz com que o campo de entrada ocupe toda a largura disponível do contêiner */
+  padding: 10px; /* Adiciona um preenchimento interno de 10 pixels ao redor do conteúdo do campo */
+  border: 1px solid #ccc; /* Define uma borda de 1 pixel com cor cinza claro ao redor do campo */
+  border-radius: 3px; /* Adiciona bordas arredondadas com raio de 3 pixels */
+  box-sizing: border-box; /* Inclui a borda e o preenchimento dentro da largura e altura especificadas */
+}
+
+/* Estilo para o botão de envio */
+button {
+  background-color: #4CAF50; /* Define a cor de fundo do botão como verde (#4CAF50) */
+  color: white; /* Define a cor do texto do botão como branco */
+  padding: 10px 20px; /* Adiciona um preenchimento interno de 10 pixels verticalmente e 20 pixels horizontalmente */
+  border: none; /* Remove qualquer borda do botão */
+  border-radius: 3px; /* Adiciona bordas arredondadas com raio de 3 pixels ao botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha quando o usuário passar o mouse sobre o botão */
+  display: block; /* Faz o botão ocupar toda a largura disponível */
+  width: 100%; /* Define a largura do botão como 100% do contêiner pai */
+}
